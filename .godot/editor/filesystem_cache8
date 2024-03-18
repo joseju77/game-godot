@@ -1,0 +1,12 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1716563893
+AnimatedSprite2D.gd::GDScript::-1::1713631274::0::1::::<>AnimatedSprite2D<>::
+Mundo2D.tscn::PackedScene::4712133485734731359::1713631274::0::1::::<><>::uid://csesjgs3icf46::::res://personaje.tscn<>uid://yv8p6seqgamc::::res://Pared.tscn
+Pared.tscn::PackedScene::1729916284051592522::1713631274::0::1::::<><>::uid://dau4wc1khuoif::::res://Assets/tilemap_packed.png
+personaje.gd::GDScript::-1::1713631274::0::1::::<>CharacterBody2D<>::
+personaje.tscn::PackedScene::6045607386131512861::1713631274::0::1::::<><>::res://personaje.gd<>uid://cpuimgs3rbbyb::::res://Assets/tilemap-characters_packed.png<>res://AnimatedSprite2D.gd
+::res://Assets/::1713631274
+icon.svg::CompressedTexture2D::4470457000313723608::1713631274::1713631274::1::::<><>::
+tilemap-backgrounds_packed.png::CompressedTexture2D::3066172034348292716::1713631274::1713631274::1::::<><>::
+tilemap-characters_packed.png::CompressedTexture2D::5867469086748405069::1713631274::1713631274::1::::<><>::
+tilemap_packed.png::CompressedTexture2D::7202349832092760093::1713631274::1713631274::1::::<><>::

@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://yv8p6seqgamc"]
+
+[ext_resource type="Texture2D" uid="uid://dau4wc1khuoif" path="res://Assets/tilemap_packed.png" id="1_12s1l"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yppw8"]
+size = Vector2(17, 17)
+
+[node name="Pared" type="StaticBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_yppw8")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_12s1l")
+hframes = 20
+vframes = 9
+frame = 29

@@ -1,0 +1,465 @@
+[gd_scene load_steps=3 format=3 uid="uid://b8eufdp55fcnv"]
+
+[ext_resource type="PackedScene" uid="uid://csesjgs3icf46" path="res://personaje.tscn" id="1_gcqpy"]
+[ext_resource type="PackedScene" uid="uid://yv8p6seqgamc" path="res://Pared.tscn" id="2_mwhr3"]
+
+[node name="Movimiento" type="Node2D"]
+
+[node name="Personaje" parent="." instance=ExtResource("1_gcqpy")]
+
+[node name="PAREDES" type="Node2D" parent="."]
+
+[node name="Pared" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(116, -27)
+
+[node name="Pared2" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(20, -64)
+
+[node name="Pared3" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-101, -61)
+
+[node name="Pared4" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(81, -120)
+
+[node name="Pared5" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-40, -117)
+
+[node name="Pared6" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(110, 151)
+
+[node name="Pared7" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(14, 114)
+
+[node name="Pared8" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-107, 117)
+
+[node name="Pared9" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(75, 58)
+
+[node name="Pared10" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-46, 61)
+
+[node name="Pared11" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(385, 147)
+
+[node name="Pared12" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(289, 110)
+
+[node name="Pared13" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(168, 113)
+
+[node name="Pared14" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(350, 54)
+
+[node name="Pared15" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(229, 57)
+
+[node name="Pared16" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(385, 147)
+
+[node name="Pared17" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(289, 110)
+
+[node name="Pared18" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(168, 113)
+
+[node name="Pared19" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(350, 54)
+
+[node name="Pared20" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(229, 57)
+
+[node name="Pared21" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(99, -173)
+
+[node name="Pared22" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(3, -210)
+
+[node name="Pared23" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-118, -207)
+
+[node name="Pared24" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(64, -266)
+
+[node name="Pared25" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-57, -263)
+
+[node name="Pared26" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(374, -177)
+
+[node name="Pared27" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(278, -214)
+
+[node name="Pared28" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(157, -211)
+
+[node name="Pared29" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(339, -270)
+
+[node name="Pared30" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(218, -267)
+
+[node name="Pared31" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(374, -177)
+
+[node name="Pared32" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(278, -214)
+
+[node name="Pared33" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(157, -211)
+
+[node name="Pared34" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(339, -270)
+
+[node name="Pared35" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(218, -267)
+
+[node name="Pared36" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(413, -21)
+
+[node name="Pared37" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(317, -58)
+
+[node name="Pared38" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(196, -55)
+
+[node name="Pared39" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(378, -114)
+
+[node name="Pared40" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(257, -111)
+
+[node name="Pared51" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-99, 443)
+
+[node name="Pared52" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-134, 350)
+
+[node name="Pared65" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-116, 297)
+
+[node name="Pared66" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-151, 204)
+
+[node name="Pared67" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(159, 293)
+
+[node name="Pared68" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(63, 256)
+
+[node name="Pared69" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-58, 259)
+
+[node name="Pared70" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(124, 200)
+
+[node name="Pared71" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(3, 203)
+
+[node name="Pared72" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(159, 293)
+
+[node name="Pared73" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(63, 256)
+
+[node name="Pared74" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-58, 259)
+
+[node name="Pared75" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(124, 200)
+
+[node name="Pared76" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(3, 203)
+
+[node name="Pared77" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(198, 449)
+
+[node name="Pared78" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(102, 412)
+
+[node name="Pared79" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-19, 415)
+
+[node name="Pared80" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(163, 356)
+
+[node name="Pared81" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(42, 359)
+
+[node name="Pared92" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-474, 12)
+
+[node name="Pared93" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-509, -81)
+
+[node name="Pared94" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-480, 190)
+
+[node name="Pared95" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-515, 97)
+
+[node name="Pared96" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-205, 186)
+
+[node name="Pared97" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-301, 149)
+
+[node name="Pared98" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-422, 152)
+
+[node name="Pared99" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-240, 93)
+
+[node name="Pared100" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-361, 96)
+
+[node name="Pared101" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-205, 186)
+
+[node name="Pared102" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-301, 149)
+
+[node name="Pared103" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-422, 152)
+
+[node name="Pared104" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-240, 93)
+
+[node name="Pared105" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-361, 96)
+
+[node name="Pared106" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-491, -134)
+
+[node name="Pared107" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-216, -138)
+
+[node name="Pared108" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-312, -175)
+
+[node name="Pared109" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-433, -172)
+
+[node name="Pared110" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-216, -138)
+
+[node name="Pared111" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-312, -175)
+
+[node name="Pared112" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-433, -172)
+
+[node name="Pared113" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-177, 18)
+
+[node name="Pared114" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-273, -19)
+
+[node name="Pared115" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-394, -16)
+
+[node name="Pared116" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-212, -75)
+
+[node name="Pared117" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-333, -72)
+
+[node name="Pared118" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-484, 435)
+
+[node name="Pared119" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-519, 342)
+
+[node name="Pared132" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-501, 289)
+
+[node name="Pared133" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-226, 285)
+
+[node name="Pared134" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-322, 248)
+
+[node name="Pared135" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-443, 251)
+
+[node name="Pared136" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-226, 285)
+
+[node name="Pared137" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-322, 248)
+
+[node name="Pared138" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-443, 251)
+
+[node name="Pared139" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-187, 441)
+
+[node name="Pared140" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-283, 404)
+
+[node name="Pared141" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-404, 407)
+
+[node name="Pared142" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-222, 348)
+
+[node name="Pared143" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-343, 351)
+
+[node name="Pared182" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(69, -324)
+
+[node name="Pared183" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(34, -417)
+
+[node name="Pared184" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(344, -328)
+
+[node name="Pared185" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(248, -365)
+
+[node name="Pared186" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(127, -362)
+
+[node name="Pared187" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(309, -421)
+
+[node name="Pared188" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(188, -418)
+
+[node name="Pared189" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(344, -328)
+
+[node name="Pared190" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(248, -365)
+
+[node name="Pared191" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(127, -362)
+
+[node name="Pared192" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(309, -421)
+
+[node name="Pared193" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(188, -418)
+
+[node name="Pared207" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-316, -332)
+
+[node name="Pared208" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-351, -425)
+
+[node name="Pared209" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-41, -336)
+
+[node name="Pared210" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-137, -373)
+
+[node name="Pared211" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-258, -370)
+
+[node name="Pared212" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-76, -429)
+
+[node name="Pared213" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-197, -426)
+
+[node name="Pared214" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-41, -336)
+
+[node name="Pared215" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-137, -373)
+
+[node name="Pared216" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-258, -370)
+
+[node name="Pared231" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-476, -258)
+
+[node name="Pared232" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-415, -314)
+
+[node name="Pared233" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-467, -319)
+
+[node name="Paredes" type="Node2D" parent="PAREDES/Pared233"]
+
+[node name="Pared234" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-467, -319)
+
+[node name="Pared235" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-220, -314)
+
+[node name="Pared236" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-399, -387)
+
+[node name="Pared237" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-495, -424)
+
+[node name="Pared239" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-399, -387)
+
+[node name="Pared240" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-495, -424)
+
+[node name="Pared241" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-213, -253)
+
+[node name="Pared217" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-76, -429)
+
+[node name="Pared218" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(-197, -426)
+
+[node name="Pared83" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(377, 408)
+
+[node name="Pared84" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(256, 411)
+
+[node name="Pared85" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(438, 352)
+
+[node name="Pared86" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(317, 355)
+
+[node name="Pared88" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(377, 408)
+
+[node name="Pared89" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(256, 411)
+
+[node name="Pared90" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(438, 352)
+
+[node name="Pared91" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(317, 355)
+
+[node name="Pared144" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(425, 299)
+
+[node name="Pared145" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(329, 262)
+
+[node name="Pared146" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(208, 265)
+
+[node name="Pared147" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(390, 206)
+
+[node name="Pared148" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(269, 209)
+
+[node name="Pared149" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(425, 299)
+
+[node name="Pared150" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(329, 262)
+
+[node name="Pared151" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(208, 265)
+
+[node name="Pared152" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(390, 206)
+
+[node name="Pared153" parent="PAREDES" instance=ExtResource("2_mwhr3")]
+position = Vector2(269, 209)
